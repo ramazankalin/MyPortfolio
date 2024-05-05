@@ -1,0 +1,39 @@
+﻿<section id="about" class="s-about target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>Hakkımda</h3>
+            <h1>Daha Fazlası</h1>
+            <p class="lead">
+                Disiplinli, çalışkan ve kolay öğrenen bir yapım var. Eğitimimden edindiğim bilgileri hayata geçirebileceğim ve stajyer olarak çalışabileceğim bir kurumda görev almaya hazırım.
+            </p>
+        </div>
+    </div>
+
+    <div class="row about-content">
+
+        <div class="col-six tab-full left">
+            <h3>Ben Kimim!</h3>
+
+            <p>2002 yılında İstanbul Gaziosmanpaşa'da doğdum. 2 kardeşim var. Üniversitem için Yalova'da ikamet ediyorum. Seneye son sınıf olup mezun olacağım inşallah.</p>
+
+            <p>
+                Aslında ortaokulda almış olduğum bilgisayardan sonra bilgisayarla içli dışlı oldum. Her gün farklı farklı şeyler öğreniyordum. İnternetten araştırma ödevlerimi yaparken bilgisayarla alakalı da çok şey öğrendim. İşte o zamanlardan başladı benim mesai :)
+            </p>
+        </div>
+        
+        @await Component.InvokeAsync("_SkillComponentPartial")
+
+    </div> <!-- end about-content -->
+
+    <div class="row about-content about-content--buttons">
+
+        <div style="text-align:center">
+            <a href="https://www.dropbox.com/scl/fi/gchx5s2tdmozclrzuy1sm/CV.pdf?rlkey=rfsxwmqs6144sxsrgbbwa5yxm&st=2xf3yemf&dl=0" class="btn btn--primary">CV' mi İndir</a>
+        </div>
+
+    </div> <!-- end about-content buttons -->
+    @await Component.InvokeAsync("_ExperienceComponentPartial")
+    <!-- end about-content timeline -->
+
+</section>
